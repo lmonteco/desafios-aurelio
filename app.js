@@ -1,5 +1,5 @@
 function removeCaracteresEspeciaisCNPJ(cnpj) {
-    let cnpjSemCaracterEspecial = cnpj.replace(/[^a-zA-Z0-9]/g, '');
+    let cnpjSemCaracterEspecial = cnpj.replace(/[^0-9]/g, '');
     return cnpjSemCaracterEspecial;
 }
 
