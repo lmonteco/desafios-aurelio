@@ -1,0 +1,3 @@
+function gerarTriangulo(numero) {
+  // TODO
+}
